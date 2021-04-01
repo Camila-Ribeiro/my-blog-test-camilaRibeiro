@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Anti-Racism Is Becoming Troublingly Racist",
+      "author": "Steve QJ",
+      "date": "Jan 18 2021",
+      "description": "You might think it’s helping — it’s not",
+      "content": "you’re not supposed to talk about how frustrating it is to watch children screw things up. You’re supposed to be patient when it takes them 17 minutes to tie their shoelaces. You’re supposed to applaud their migraine-inducing attempts to play the violin. You’re supposed to give your undivided attention as they tell stories that somehow lack a beginning, a middle, and an end. But worst of all is when a child wants to help you with something. You know that accepting their help will quadruple the time, energy, and resources required to get anything done. You realise that it’d be far simpler to do the job yourself. You’re aware that they’ll get bored halfway through and give up. But what are you supposed to tell them? They’re so enthusiastic, so earnest, so eager to contribute. So you take a deep breath, grit your teeth into a smile, and watch them make a mess.",
+      "image_url": "https://miro.medium.com/max/770/1*_ed9L5YlfdKC-D_THYCdJQ@2x.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Top 10 Most Useful Online Courses That Are Free",
+      "author": "Scott H.Young",
+      "date": "Dec 12 2020",
+      "description": "The best free courses from Harvard, Stanford, MIT and more…",
+      "content": "I tend to prefer courses to books. Although the best books definitely beat mediocre courses, there’s a few reasons why a great course can leave a lasting impression. For starters, courses tend to teach foundational topics. Most books try to be original. But much of what’s worth knowing is actually fairly old.Courses tend to be more balanced. A professor teaching a basic course will try to explain most of the major viewpoints. Yet a popular book written by the same professor might be completely one-sided, as they try to make the strongest case for their views. Polemical works can be useful, but they can be misleading if you mistake a contentious issue for an open-and-shut case.",
+      "image_url": "https://miro.medium.com/max/770/1*_ed9L5YlfdKC-D_THYCdJQ@2x.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Four Signs a Person Is Secretly Unhappy with Their Life",
+      "author": "Sean Kernan",
+      "date": "Feb 1 2021",
+      "description": "Learn to read a person's contentment and it will improve your relationships and happiness.",
+      "content": "you’re not supposed to talk about how frustrating it is to watch children screw things up. You’re supposed to be patient when it takes them 17 minutes to tie their shoelaces. You’re supposed to applaud their migraine-inducing attempts to play the violin. You’re supposed to give your undivided attention as they tell stories that somehow lack a beginning, a middle, and an end. But worst of all is when a child wants to help you with something. You know that accepting their help will quadruple the time, energy, and resources required to get anything done. You realise that it’d be far simpler to do the job yourself. You’re aware that they’ll get bored halfway through and give up. But what are you supposed to tell them? They’re so enthusiastic, so earnest, so eager to contribute. So you take a deep breath, grit your teeth into a smile, and watch them make a mess.",
+      "image_url": "https://miro.medium.com/max/1540/1*T36iyGk8HI3iFINw27SAjQ.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "7 Habits I Avoid to Become Highly Productive",
+      "author": "Anthony J.Yeung",
+      "date": "Mar 20 2021",
+      "description": "Cutting these things helped me boost my productivity.",
+      "content": "you’re not supposed to talk about how frustrating it is to watch children screw things up. You’re supposed to be patient when it takes them 17 minutes to tie their shoelaces. You’re supposed to applaud their migraine-inducing attempts to play the violin. You’re supposed to give your undivided attention as they tell stories that somehow lack a beginning, a middle, and an end. But worst of all is when a child wants to help you with something. You know that accepting their help will quadruple the time, energy, and resources required to get anything done. You realise that it’d be far simpler to do the job yourself. You’re aware that they’ll get bored halfway through and give up. But what are you supposed to tell them? They’re so enthusiastic, so earnest, so eager to contribute. So you take a deep breath, grit your teeth into a smile, and watch them make a mess.",
+      "image_url": "https://miro.medium.com/max/2200/1*JgvK8XYmhPr8Hz3thMOx2A.jpeg"
+    }
+  ],
+  "comments": [
+    {
+      "name": "camila",
+      "comment": "lovely post",
+      "postId": "1",
+      "id": 5
+    },
+    {
+      "name": "John",
+      "comment": "Enjoyed this reading",
+      "postId": "2",
+      "id": 7
+    },
+    {
+      "name": "anna",
+      "comment": "nice",
+      "postId": "2",
+      "id": 8
+    },
+    {
+      "name": "Brian",
+      "comment": "Lovely Blog",
+      "postId": "2",
+      "id": 9
+    },
+    {
+      "name": "Ainne",
+      "comment": "thanks for sharing this idea",
+      "postId": "2",
+      "id": 10
+    },
+    {
+      "name": "Tim",
+      "comment": "Nice words man!!",
+      "postId": "2",
+      "id": 11
+    },
+    {
+      "name": "Raf",
+      "comment": "Thanks for sharing your point of view!",
+      "postId": "2",
+      "id": 12
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

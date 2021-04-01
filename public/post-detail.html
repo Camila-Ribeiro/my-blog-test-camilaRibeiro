@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JSON Server</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li class="title">
+              <a href="index.html">MyBlog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container w-50 posts-db">
+          <h1 id="title" class="text-uppercase">Title</h1>
+          <p id="description" class="text-font">text</p>
+          <span id="author" class="text-uppercase author"></span>
+          <span>-&nbsp;</span>
+          <span id="date" class="font-italic"></span>
+          <div class="mt-5">
+            <img id="image_url" class="img-fluid" alt="Child Picture">
+            <p id="content" class="mt-5 text-capitalize"></p>
+          </div>
+        </div>
+      </section>
+      <section class="mt-5 submitComments">
+        <div class="container w-50">
+          <h4>Leave your comment</h4>
+          <form id="form" method="post" action="">
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                <div id="feedback_name" class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="post_comment">Message</label>
+              <textarea class="form-control" id="post_comment" placeholder="Required message" required></textarea>
+              <div id="feedback_message" class="valid-feedback">
+                You are set.
+              </div>
+            </div>
+            <button id="submit" class="btn btn-custom" type="submit">Submit form</button>
+          </form>
+          <div id="send_success" class="alert alert-success d-none mt-5" role="alert">
+            Your message was sent successfully. Thanks.
+          </div>
+          <div id="error" class="alert alert-danger d-none" role="alert">
+            An error occurred, please try again later.
+          </div>
+        </div>
+      </section>
+      <section class="mt-5 mb-5 comments">
+        <div class="container w-50" id="comments_db">
+          <h4>Comments</h4>
+        </div>
+      </section>
+    </main>
+
+    <footer class="fixed-bottom">
+      <div class="text-center">
+          <h6 class="align-content-center">&copy; Copyright</h6>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/details.js"></script>
+  </body>
+</html>

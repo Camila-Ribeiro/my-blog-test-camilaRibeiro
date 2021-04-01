@@ -1,0 +1,103 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+  margin-top: 4rem;
+  font-weight: normal;
+}
+
+nav li.title {
+  font-weight: bold;
+  font-size: 26px;
+  color: #3b4252;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.2rem;
+}
+
+header {
+  border-bottom: 1px solid #eee;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+body {
+  color: #3b4252;
+  letter-spacing: 0;
+  font-family: 'Lora', serif;
+}
+
+footer {
+  background-color:#007990;
+  color: #fff;
+  height: 30px;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 4rem;
+  border-top: 1px solid #eee;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #007990;
+  border-color: #007990;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background-color: #27d1c9;
+  border-color: #27d1c9;
+  text-decoration: none;
+}
+
+.posts-db h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+
+.posts-db p {
+  color: #808080;
+}
+
+/* ------------------------- Index Page */
+.text-font {
+  font-size: 16px;
+}
+
+.date-font {
+  font-size: 12px;
+}
+
+/* ------------------------- Post Detail Page */
+.posts-db .author {
+  letter-spacing: 1px;
+}
+
+/* ------------------------- Comments Sections  */
+#comments_db h5{
+  line-height: 0.6;
+  font-size: 15px;
+  color: #007990;
+}
